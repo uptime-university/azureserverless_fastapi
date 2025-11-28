@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Azure Functions local settings
+local.settings.json
+
+# Azure Functions build output
+bin/
+obj/
+.clinic/
+.azure-functions-core-tools/
+*.user
+*.suo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# OS / Editor files
+.vscode/
+.idea/
+
+# Linux package files
+*.deb
+
+# Azure Functions host temp dirs
+data/
+.temp/
+
+# Python packaging/cache
+build/
+dist/
+pip-wheel-metadata/
+*.whl
+.cache/

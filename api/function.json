@@ -1,0 +1,20 @@
+{
+  "scriptFile": "../function_app.py",
+  "entryPoint": "asgi_app.main",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "authLevel": "anonymous",
+      "direction": "in",
+      "name": "req",
+      "methods": ["get", "post", "put", "delete", "patch"],
+      "route": "{*path}"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    }
+  ]
+}
+
